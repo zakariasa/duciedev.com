@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — DUCIE DEV</title>
+  <meta name="description" content="Get in touch with Ducie Dev. Send a message for collaborations, support, or general inquiries." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">DUCIE DEV</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="games.html" class="nav-link">Games</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="games.html" class="nav-link">Games</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+      <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- PAGE HERO -->
+    <div class="page-hero">
+      <h1 class="page-hero-title">Get In Touch</h1>
+      <p class="page-hero-sub">Questions, feedback, or collaborations — I'd love to hear from you</p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-section">
+
+      <!-- Email Direct -->
+      <div class="email-direct fade-up">
+        <div class="email-icon-wrap">✉️</div>
+        <div class="email-info">
+          <span class="email-label">Or reach us directly at</span>
+          <a href="mailto:support@duciedev.com" class="email-address">support@duciedev.com</a>
+        </div>
+      </div>
+
+      <div class="contact-card fade-up">
+
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input id="name" name="name" type="text" class="form-input" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input id="email" name="email" type="email" class="form-input" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" class="form-input" placeholder="Collaboration / Support / Other" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Write your message here…" required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+
+        <div class="form-success" id="form-success">
+          <div class="success-icon">✅</div>
+          <p class="success-title">Message Sent!</p>
+          <p class="success-sub">Thanks for reaching out. I'll get back to you as soon as possible.<br/>You can also email us at <a href="mailto:support@duciedev.com" style="color:var(--cyan-400);">support@duciedev.com</a></p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">DUCIE DEV</p>
+      <p class="footer-tagline">Crafting unforgettable mobile experiences.</p>
+      <div class="footer-links">
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="mailto:support@duciedev.com" class="footer-link">support@duciedev.com</a>
+      </div>
+      <p class="footer-copy">© 2026 Ducie Dev · <a href="https://duciedev.com" class="footer-domain">duciedev.com</a> · All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

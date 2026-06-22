@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DUCIE DEV | Mobile Game Developer</title>
-  <meta name="description" content="Discover and download top mobile games by Ducie Dev. Handcrafted indie experiences built with passion." />
+  <title>Games — DUCIE DEV</title>
+  <meta name="description" content="Browse all mobile games developed by Ducie Dev. Action, puzzle, adventure and more." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -12,13 +12,13 @@
 </head>
 <body>
 
-  <!-- ===== NAVBAR ===== -->
+  <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="index.html" class="nav-logo">DUCIE DEV</a>
       <div class="nav-links">
-        <a href="index.html" class="nav-link active">Home</a>
-        <a href="games.html" class="nav-link">Games</a>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="games.html" class="nav-link active">Games</a>
         <a href="contact.html" class="nav-link">Contact</a>
         <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
       </div>
@@ -27,50 +27,26 @@
       </button>
     </div>
     <div class="mobile-menu" id="mobile-menu">
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="games.html" class="nav-link">Games</a>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="games.html" class="nav-link active">Games</a>
       <a href="contact.html" class="nav-link">Contact</a>
       <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
     </div>
   </nav>
 
-  <!-- ===== MAIN ===== -->
   <main>
+    <!-- PAGE HERO -->
+    <div class="page-hero">
+      <h1 class="page-hero-title">All Games</h1>
+      <p class="page-hero-sub">Every title crafted with passion — pick your next adventure</p>
+    </div>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-      <div class="hero-bg-gradient"></div>
-      <div class="hero-radial"></div>
-      <div class="hero-particles" id="particles"></div>
-      <div class="hero-content">
-        <h1 class="hero-title">
-          <span class="hero-title-white">Discover My</span>
-          <span class="hero-title-gradient">Mobile Games</span>
-        </h1>
-        <p class="hero-desc">
-          Play and download my handcrafted indie games. Experience thrilling adventures, intense strategy battles, and captivating puzzles — crafted with passion.
-        </p>
-        <div class="hero-actions">
-          <a href="games.html" class="btn-primary">Explore Games</a>
-          <a href="contact.html" class="btn-secondary">Get in Touch</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- FEATURED GAMES SECTION -->
-    <section class="featured-section">
-      <div class="section-header">
-        <h2 class="section-title">
-          Featured Hits
-          <div class="section-title-bar"></div>
-        </h2>
-        <p class="section-sub">Handpicked games built for fun and adventure</p>
-      </div>
-
+    <!-- GAMES GRID -->
+    <section class="games-page-section">
       <div class="games-grid">
 
-        <!-- Game Card 1: Crowed Pusher Heroes -->
-        <a class="game-card" href="https://www.amazon.com/Ducie-Dev-Crowed-Pusher-Heroes/dp/B0H246JLSZ/" target="_blank" rel="noopener noreferrer">
+        <!-- Game 1: Crowed Pusher Heroes -->
+        <a class="game-card fade-up" href="https://www.amazon.com/Ducie-Dev-Crowed-Pusher-Heroes/dp/B0H246JLSZ/" target="_blank" rel="noopener noreferrer">
           <div class="card-image-wrap">
             <div class="card-overlay"></div>
             <img src="images/game1.png" alt="Crowed Pusher Heroes" class="card-real-img" />
@@ -85,8 +61,8 @@
           </div>
         </a>
 
-        <!-- Game Card 2: Doodle Race: Epic Rush -->
-        <a class="game-card" href="https://www.amazon.com/Ducie-Dev-Doodle-Race-Epic/dp/B0H18MZPDC/" target="_blank" rel="noopener noreferrer">
+        <!-- Game 2: Doodle Race: Epic Rush -->
+        <a class="game-card fade-up" href="https://www.amazon.com/Ducie-Dev-Doodle-Race-Epic/dp/B0H18MZPDC/" target="_blank" rel="noopener noreferrer">
           <div class="card-image-wrap">
             <div class="card-overlay card-overlay-2"></div>
             <img src="images/game2.png" alt="Doodle Race: Epic Rush" class="card-real-img" />
@@ -101,8 +77,8 @@
           </div>
         </a>
 
-        <!-- Game Card 3: Baby House Cleaning -->
-        <a class="game-card" href="https://www.amazon.com/Ducie-Dev-Baby-House-Cleaning/dp/B0GX2PD11T/" target="_blank" rel="noopener noreferrer">
+        <!-- Game 3: Baby House Cleaning -->
+        <a class="game-card fade-up" href="https://www.amazon.com/Ducie-Dev-Baby-House-Cleaning/dp/B0GX2PD11T/" target="_blank" rel="noopener noreferrer">
           <div class="card-image-wrap">
             <div class="card-overlay card-overlay-3"></div>
             <img src="images/game3.png" alt="Baby House Cleaning" class="card-real-img" />
@@ -118,43 +94,10 @@
         </a>
 
       </div>
-
-      <div class="view-all-wrap">
-        <a href="games.html" class="view-all-link">
-          View All Games
-          <span class="view-all-arrow">→</span>
-        </a>
-      </div>
     </section>
-
-    <!-- ABOUT STRIP -->
-    <section class="about-strip">
-      <div class="about-inner">
-        <div class="about-stat">
-          <span class="stat-num">10+</span>
-          <span class="stat-label">Games Released</span>
-        </div>
-        <div class="about-divider"></div>
-        <div class="about-stat">
-          <span class="stat-num">50K+</span>
-          <span class="stat-label">Downloads</span>
-        </div>
-        <div class="about-divider"></div>
-        <div class="about-stat">
-          <span class="stat-num">4.8★</span>
-          <span class="stat-label">Average Rating</span>
-        </div>
-        <div class="about-divider"></div>
-        <div class="about-stat">
-          <span class="stat-num">5+</span>
-          <span class="stat-label">Years Experience</span>
-        </div>
-      </div>
-    </section>
-
   </main>
 
-  <!-- ===== FOOTER ===== -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-inner">
       <p class="footer-brand">DUCIE DEV</p>
